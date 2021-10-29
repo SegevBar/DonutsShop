@@ -1,0 +1,93 @@
+body {
+  background-color: pink;
+  font-family: tahoma;
+  direction: rtl;
+}
+
+h1 {
+  font-family: tahoma;
+  font-size: 100px;
+  color: white;
+  text-shadow: 2px 2px 5px lightcoral;
+  text-align: center;
+  direction: rtl;
+}
+
+#menu {
+  font-family: tahoma;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 5px lightcoral;
+  text-align: right;
+  margin-right: 250px;
+  direction: rtl;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#opening {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+div {
+  margin-left: auto;
+  margin-right: 200px;
+  background-color: floralwhite;
+  color: rgb(255, 163, 179);
+  width: 700px;
+  border: 5px solid palevioletred;
+  padding: 40px;
+  direction: rtl;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: tahoma;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: pink;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px gainsboro;
+}
+
+button:hover {background-color: rgb(255, 158, 174)}
+
+button:active {
+  background-color: rgb(255, 158, 174);
+  box-shadow: 0 5px gainsboro;
+  transform: translateY(4px);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.shoppingList {
+  float: left;
+  margin-right: auto;
+  margin-left: 100px;
+  width: 250px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Donuts Shop</h1> 
+
+    <p id="opening">
+      ברוכות הבאות לחנות הדונאטס שלנו!
+      <br></br>
+      מחיר כל דונאט הוא 12 ש"ח
+      <br></br>
+      בתיאבון!
+    </p>
+
+    <h2 id="menu">מה תרצו?</h2>
+
+    <div class="shoppingList">
+      <h3>פריטי ההזמנה</h3>
+      <ul id="shoppingItems">
+      </ul>
+      <h2 id="toPay">לתשלום: </h2>
+    </div>
+
+    <div id="caramel" class="clearfix">
+      <img src = "./caramel.PNG"/>    
+      <h2>כרמל מלוח</h2>
+      <p>
+        דונאטס ממולא קרם כרמל מלוח בציפוי גלייז לבן וסוכריות כרמל
+      </p>
+      <button onclick="addToCart('כרמל מלוח')">הוספת פריט</button>
+    </div>
+    <br></br>
+    
+    
+    <div id="chocolate" class="clearfix">
+      <img src = "./chocolate.PNG"/>
+      <h2>שוקולד</h2>
+      <p>
+        דונאטס ממולא בקרם שוקולד בציפוי גלייז עם שבבי אגוזים
+      </p>
+      <button onclick="addToCart('שוקולד')">הוספת פריט</button>
+    </div>
+    <br></br>
+
+    
+    <div id="classic" class="clearfix">
+      <img src = "./classic.PNG"/>
+      <h2>קלאסי</h2>
+      <p>
+        דונאטס מצופה גלייז סוכר
+      </p>
+      <button onclick="addToCart('קלאסי')">הוספת פריט</button>
+    </div>
+    <br></br>
+
+    
+    <div id="m&m" class="clearfix">
+      <img src = "./m&m.PNG"/>
+      <h2>M&M</h2>
+      <p>
+        דונאטס ללא מילוי בציפוי סוכריות צבעוניות
+      </p>
+      <button onclick="addToCart('M&M')">הוספת פריט</button>
+    </div>
+    <br></br>
+
+    
+    <div id="pink" class="clearfix"> 
+      <img src = "./pink.PNG"/>
+      <h2>ורוד</h2>
+      <p>
+        דונאטס בציפוי ורוד עם סוכריות לבנות ואדומות במילוי קרם שוקולד לבן
+      </p>
+      <button onclick="addToCart('ורוד')">הוספת פריט</button>
+    </div>
+    <br></br>
+
+    
+    <div id="redVelvet" class="clearfix"> 
+      <img src = "./redvelvet.PNG"/>
+      <h2>קטיפה אדומה</h2>
+      <p>
+        דונאטס ממולא בקרם צ׳יזקייק בציפוי עוגת רד וולווט
+      </p>
+      <button onclick="addToCart('קטיפה אדומה')">הוספת פריט</button>
+    </div>
+    <br></br>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
